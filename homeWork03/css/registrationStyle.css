@@ -1,0 +1,180 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td, select { 
+  padding:0;
+  margin:0;}
+
+fieldset, img {
+  border:0
+}
+
+ol, ul, li {
+  list-style:none
+}
+
+
+
+body,
+input,
+textarea,
+select, option {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+p {
+  font-size: 11px;
+  width: 130px;
+  display: inline-block;
+  margin-left:15px ;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+html{
+  background-color: #ffffff;
+}
+
+.registrationBox {
+  margin: 20px auto;
+  width: 350px; 
+  height: 550px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+}
+
+input[type=radio] {
+  visibility: hidden;
+  padding: 20px;
+}
+
+form{
+  margin: 0 30px;
+}
+
+hr{
+  color: #a9a9a9;
+  opacity: 0.3;
+}
+
+
+input[type=text],input[type=password] {
+  width: 200px; 
+  height: 39px; 
+  border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  background-color: #fff; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 1px #cbc9c9;
+  margin-top: 13px; 
+  padding-left: 10px;
+}
+
+input[type=checkbox]{
+  width: 20px; 
+  height: 20px;
+}
+
+.comment{
+  margin-top: 13px;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+
+.comment label{
+  display: inline-block;
+  width: 30px;
+  background-color: #0058D1;
+  padding: 8px 0px 8px 15px;
+  margin-left: 15px;
+  border-radius: 4px 0px 0px 4px;
+  color: white;
+  border: solid 0px #cbc9c9;
+}
+
+.comment textarea{
+  width: 200px; 
+  height: 39px; 
+  margin-left: 4px; 
+  padding-left: 10px;
+  resize: none;
+}
+
+.comment label{
+  height: 20px; 
+  margin-top: 2px;
+}
+
+
+.checkbox{
+    margin-top: 13px;
+    float: left;
+}
+
+select{
+  width: 212px; 
+  height: 39px; 
+  border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  background-color: #fff; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 1px #cbc9c9;
+  margin-top: 13px; 
+  padding-left: 10px;
+  color: #4c4c4c;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  background-color: #0058D1;
+  padding: 8px 0px 8px 15px;
+  margin-left: 15px;
+  border-radius: 4px 0px 0px 4px;
+  color: white;
+  border: solid 0px #cbc9c9;
+}
+
+.gender {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.accounttype{
+    margin-top: 13px;
+    padding: 10px;
+
+}
+
+input[type = submit] {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 25px 0px 20px;
+  margin: 10px 15px 20px 0px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  width: 80px; 
+  height: 30px; 
+  border-radius: 5px; 
+  background-color: #0058D1; 
+  box-shadow: 0 3px rgba(58,87,175,.75);
+  transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+}
+
+input[type = submit]:hover {
+  top: 3px;
+  background-color:#0058D1;
+  box-shadow: none; 
+}
+
