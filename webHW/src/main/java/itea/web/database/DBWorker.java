@@ -18,7 +18,7 @@ public class DBWorker {
 			Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException | ClassNotFoundException e) {
-			e.printStackTrace();
+			logger.log(Level.INFO, e.getMessage());
 		}
 	}
 
